@@ -20,14 +20,14 @@ git config --global user.email "your-email@example.com"
 ### Adding and removing files from tracking
 ```bash
 # Add files to staging area
-git add nibbi.txt
-git add nibba.txt
+git add file2.txt
+git add file1.txt
 
 # Remove a file from the staging area
-git rm --cached nibba.txt
+git rm --cached file1.txt
 
 # Delete a file from the working directory
-rm nibba.txt
+rm file1.txt
 ```
 
 ---
@@ -36,7 +36,7 @@ rm nibba.txt
 ### Saving changes with meaningful messages
 ```bash
 # Commit all staged changes with a message
-git commit -m "Initial commit: adding nibbi and nibba"
+git commit -m "Initial commit: adding file1 and file2"
 
 # Check status of the repository after committing
 git status
@@ -74,7 +74,7 @@ git show 9123c5fcb2f85d611326783f8a0540e8b4173221
 ### Restoring modified or deleted files
 ```bash
 # Restore a specific file from the staging area
-git restore nibbi.txt
+git restore file2.txt
 ```
 
 ---
@@ -90,4 +90,3 @@ git pull origin master
 ```
 
 ---
-
